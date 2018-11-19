@@ -1,4 +1,4 @@
-module.exports = function flatten(list, depth) {
+export default function flatten(list, depth) {
   depth = (typeof depth == 'number') ? depth : Infinity;
 
   if (!depth) {
